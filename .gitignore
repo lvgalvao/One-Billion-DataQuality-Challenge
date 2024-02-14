@@ -7,6 +7,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Arquivos
+
+measurements.txt
+
+# ENV
+
 .venv
 
 # C extensions

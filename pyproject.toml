@@ -8,6 +8,11 @@ packages = [{include = "dataquality_workshop"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pandas = "^2.2.0"
+pandera = {extras = ["io"], version = "^0.18.0"}
+pyarrow = "^15.0.0"
+dask = {extras = ["complete"], version = "^2024.2.0"}
+dask-expr = "^0.4.2"
 
 
 [build-system]
