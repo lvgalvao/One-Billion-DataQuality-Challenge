@@ -20,5 +20,5 @@ class Schema(pa.DataFrameModel):
         """Verifique que a terceira coluna tenha 2 elementos após a separação do '_'"""
         return series.str.split("_", expand=True).shape[1] == 2
 
-print(df_errado)
-# Schema.validate(df_errado)
+print(df)
+Schema.validate(df)
